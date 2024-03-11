@@ -19,6 +19,7 @@ jobs:
       - name: install
         id: install
         run: |
+          python --version
           echo pnpm install
           node ./gen-service-version.js
 
